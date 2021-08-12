@@ -6,9 +6,15 @@ import TripDetails from "./components/dashboard/TripDetails";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 import AddTrip from "./components/dashboard/AddTrip";
+import ProfilePage from "./components/dashboard/ProfilePage";
+import {fetchJson} from "./http";
 
 
 function App(){
+
+    async function loadProfile(){
+        return fetchJson("/api/profile");
+    }
 
         return (
             <BrowserRouter >
@@ -21,6 +27,12 @@ function App(){
                         <Route  path={"/signin"} component={SignIn}/>
                         <Route  path={"/signup"} component={SignUp}/>
                         <Route path={'/new-trip'} component={AddTrip} />
+                        <Route path={'/profile'}>
+                            <ProfilePage loadProfile={loadProfile}/>
+                        </Route>
+                        <Route>
+                            <h1 style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>Not Found</h1>
+                        </Route>
                     </Switch>
 
 
