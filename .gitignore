@@ -2,4 +2,9 @@
 .cache
 .idea
 .parcel-cache
-./node_modules
+*/.node_modules
+*.map
+node_modules/.bin/acorn
+*.cmd
+/node_modules/
+/dist/
