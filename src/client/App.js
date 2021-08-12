@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Header from "./components/header/Header";
 import Dashboard from "./components/dashboard/Dashboard";
@@ -11,9 +11,14 @@ import {fetchJson} from "./http";
 
 
 function App(){
+    const [access_token, setAccess_token] =useState();
 
     async function loadProfile(){
-        return fetchJson("/api/profile");
+        return fetchJson("/api/profile", {
+            headers:{
+                ...(access_token ? {Authorization: `Bearer ${access_token}` } : {}),
+            }
+        });
     }
 
         return (
