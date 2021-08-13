@@ -1,4 +1,4 @@
-# <p align="center">
-  <img width="460" height="300" src="src/public/airplane.ico">
+# <img align="center" src="src/public/airplane.ico" alt="...">
+
 </p> <p align="center">pg6301_8026</p> 
  Webutvikling og API-design (PG6301)
