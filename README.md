@@ -42,6 +42,31 @@
 
 
 ## <h1 align="center"> Start the program</h1>
+
+For å kunne kjøre programmet må du ha en Config.js fil ( den følger med i zip-filen).
+Plan var og kjøre .env-fil men det dukket opp flere problemer derfor velger jeg å bruke kun Config.js filen.
+
+### Config.js
+'import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
+
+var Config = {
+    apiKey: "API_KEY",
+  authDomain: "PROJECT_ID.firebaseapp.com",
+  databaseURL: "https://PROJECT_ID.firebaseio.com",
+  projectId: "PROJECT_ID",
+  storageBucket: "PROJECT_ID.appspot.com",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+  measurementId: "G-MEASUREMENT_ID",
+};
+        // Initialize Firebase
+firebase.initializeApp(Config);
+firebase.firestore().settings({ timestampInSnapshots: true});
+
+export default firebase;'
+
 1. `npm install`
 2. `npm start`
 
