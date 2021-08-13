@@ -17,13 +17,6 @@ function App(){
     };
 
 
-    async function loadProfile(){
-        return fetchJson("/api/profile", {
-            headers:{
-                ...(access_token ? {Authorization: `Bearer ${access_token}` } : {}),
-            },
-        });
-    }
 
         return (
             <BrowserRouter >

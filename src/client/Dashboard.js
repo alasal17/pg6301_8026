@@ -12,7 +12,7 @@ class Dashboard extends Component {
 
     render() {
         const {trips, auth} = this.props;
-        if (!auth.uid) return <Redirect to='/login' />
+
         return (
             <div>
                 <div className="dashboard container">
@@ -33,7 +33,7 @@ class Dashboard extends Component {
 const mapStateToProps = (state) => {
     return {
         trips: state.firestore.ordered.trips,
-        auth: state.firebase.auth
+
     }
 }
 
