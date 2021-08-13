@@ -8,4 +8,4 @@ node_modules/.bin/acorn
 *.cmd
 /node_modules/
 /dist/
-src/server/Config.js
+.env
