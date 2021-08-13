@@ -17,18 +17,31 @@
 - "redux-firestore": "^0.5.7",
 - "redux-thunk": "^2.3.0"
 
+
+
+### Løsnigen
+
+Jeg hadde en ide om å lage en nettside/forumside for reise byrå. Her kunne ansette logge seg inn og legge til reisetips til sine kunder.
+Kunder kan besøke siden og se på tipsene, men de har ikke noe mulighet til å endre eller slette innlegg. Det kun noe ansatte kan gjøre. 
+
+### Teknologi
+Jeg har brukt firebase som min backend. Det er en effektiv plattform som er enkelt og bruke med React og JavaScript. Har har jeg opprettet en database som inneholder to tabeller,
+users og trips. Her så er vært innlegg tilknuttet en bruker. 
+
+-<img align="center" src="src/public/airplane.ico" alt="plane"/>
+
+
 ## Funksjoner i web applikasjonen
 
 ### Funksjoner jeg rakk og bli ferdig med:
 - [x] Bruker kan logge inn.
 - [x] Bruker kan legge til nye Reisetips til databasen.
 - [x] Bruker kan se hva han/ hun har postet og det andre har posted.
-- [ ]
+- [x] Brukeren kan se inn holdet men må logge inn for å legge til ett nytt innlegg
 
 ### Funksjoner jeg ikke fikk tid til å fullføre:<br/>
 - [ ] Bruker kan slette sitte innhold.
 - [ ] Bruker kan updatere sin blogg.
-- [ ] Dashboard som kun viser bloggene til besøkende, men kan ikke endre innlegg.
 - [ ] Chat funksjon.
 
 <p align="center">
@@ -70,8 +83,13 @@ firebase.firestore().settings({ timestampInSnapshots: true});
 export default firebase;
 ```
 
+
 1. `npm install`
 2. `npm start`
+
+Programmet skal startet på http://localhost:8080/
+
+
 
 
 
