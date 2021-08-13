@@ -15,3 +15,7 @@ node_modules/.bin/acorn
 /public/
 *.env
 /.env
+src/server/Config.js
+User.txt
+src/server/Config.js
+src/server/Config.js
