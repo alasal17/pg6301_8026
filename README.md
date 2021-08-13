@@ -17,6 +17,19 @@
 - "redux-firestore": "^0.5.7",
 - "redux-thunk": "^2.3.0"
 
+## Funksjoner i web applikasjonen
+
+### Funksjoner jeg rakk og bli ferdig med:
+[x] Bruker kan logge inn.
+[x] Bruker kan legge til nye Reisetips til databasen.
+[x] Bruker kan se hva han/ hun har postet og det andre har posted.
+[]
+
+### Funksjoner jeg ikke fikk tid til å fullføre:
+[] Bruker kan slette sitte innhold.
+[] Bruker kan updatere sin blogg.
+[] Dashboard som kun viser bloggene til besøkende, men kan ikke endre innlegg
+[] Chat funksjon
 
 <p align="center">
   <b>Folder Structured:</b><br>
