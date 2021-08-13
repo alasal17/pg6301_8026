@@ -22,7 +22,7 @@ class AddTrip extends Component {
     }
     render() {
         const { auth } = this.props;
-        if (!auth.uid) return <Redirect to='/login' />
+        if (!auth.uid) return <Redirect to='/' />
         return (
             <div className="container">
                 <form className="white" onSubmit={this.handleSubmit}>
