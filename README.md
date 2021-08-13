@@ -124,6 +124,20 @@ export default firebase;
 Programmet skal startet på http://localhost:8080/
 
 
+Brukernavn og passord:
+```
+bruker1
+brudkernavn: dev0@pg6301.com
+passord: 123456
+```
+
+```
+bruker2
+brudkernavn: dev1@pg6301.com
+passord: 123456
+```
+
+
 
 
 # <h1 align="center"> Punkter som har påvirket eksamen </h1>
