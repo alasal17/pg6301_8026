@@ -71,7 +71,7 @@ Bruker autentiseringen er custom Email/Password provider. Det er på samme måte
   <img src="https://i.pinimg.com/originals/a2/d8/c3/a2d8c395b374be74c98052223abcab96.gif" wight=100px width=100px>
 </p>
 
-## Funksjoner i web applikasjonen
+##<h2 align="center">  Funksjoner i web applikasjonen</h2>
 
 ### <h3 align="center">  Funksjoner jeg rakk og bli ferdig med:</h3>
 - [x] Bruker kan logge inn.
