@@ -1,6 +1,15 @@
-import React, { Component } from 'react'
 
-class SignIn extends Component {
+/** This class component is a form for user login. The auth happend in the firebase database.
+ *  Using react-redux to get the user auth **/
+
+
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import {signIn} from "./signIn";
+import {Redirect} from "react-router-dom";
+
+
+class Login extends Component {
     state = {
         email: '',
         password: ''
@@ -12,9 +21,11 @@ class SignIn extends Component {
     }
     handleSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state);
+        this.props.signIn(this.state)
     }
     render() {
+        const { authError, auth } = this.props;
+        if (auth.uid) return <Redirect to='/' />
         return (
             <div className="container">
                 <form className="white" onSubmit={this.handleSubmit}>
@@ -29,6 +40,9 @@ class SignIn extends Component {
                     </div>
                     <div className="input-field">
                         <button className="btn pink lighten-1 z-depth-0">Login</button>
+                        <div className="center red-text">
+                            { authError ? <p>{authError}</p> : null }
+                        </div>
                     </div>
                 </form>
             </div>
@@ -36,4 +50,17 @@ class SignIn extends Component {
     }
 }
 
-export default SignIn
+const mapStateToProps = (state) => {
+    return{
+        authError: state.auth.authError,
+        auth: state.firebase.auth
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        signIn: (creds) => dispatch(signIn(creds))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login)
