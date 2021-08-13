@@ -9,6 +9,6 @@
   <a href="#">src/server</a> |
   <a href="#">src/public</a>
   <br><br>
-  <img src="https://i.pinimg.com/originals/a2/d8/c3/a2d8c395b374be74c98052223abcab96.gif" wight=10px width=10px>
+  <img src="https://i.pinimg.com/originals/a2/d8/c3/a2d8c395b374be74c98052223abcab96.gif" wight=50px width=50px>
 </p>
 
