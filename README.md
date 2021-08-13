@@ -73,7 +73,7 @@ Bruker autentiseringen er custom Email/Password provider. Det er på samme måte
 
 ## Funksjoner i web applikasjonen
 
-### <h1 align="center">  Funksjoner jeg rakk og bli ferdig med:</h1>
+### <h3 align="center">  Funksjoner jeg rakk og bli ferdig med:</h3>
 - [x] Bruker kan logge inn.
 - [x] Bruker kan legge til nye Reisetips til databasen.
 - [x] Bruker kan se hva han/ hun har postet og det andre har posted.
