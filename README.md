@@ -45,6 +45,7 @@ build/run:
   },´
 ```
 
+**I Denne oppgaven har jeg valgt og bruke npm**
 
 Jeg har brukt firebase som min backend. Det er en effektiv plattform som er enkelt og bruke med React og JavaScript. Har har jeg opprettet en database som inneholder to tabeller,
 users og trips. Her så er vært innlegg tilknuttet en bruker. 
@@ -79,7 +80,7 @@ Bruker autentiseringen er custom Email/Password provider. Det er på samme måte
 - [x] Bruker kan se hva han/ hun har postet og det andre har posted.
 - [x] Brukeren kan se inn holdet men må logge inn for å legge til ett nytt innlegg
 
-### Funksjoner jeg ikke fikk tid til å fullføre:<br/>
+### <h3 align="center">Funksjoner jeg ville implimentere:</h3><br/>
 - [ ] Bruker kan slette sitte innhold.
 - [ ] Bruker kan updatere sin blogg.
 - [ ] Chat funksjon.
@@ -123,6 +124,17 @@ export default firebase;
 Programmet skal startet på http://localhost:8080/
 
 
+
+
+# <h1 align="center"> Punkter som har påvirket eksamen </h1>
+
+Det startet med at oppgaven ble ikke lastet opp til wiseflow.
+
+Jeg hadde fått en annen beskjed på hva som var lov og bruke i den eksamen i forhold til den forrige eksamen.
+Jeg fikk beskjed om at vi kunne bruke npm og create-react-app. Og med det så har jeg øvd på den måten. 
+
+Jeg fikk svar kl 08:00 12/08. Da har det gått såpass langtid at jeg følte jeg mistet en hel dag.
+Med det så har det påvirket tiden jeg har til både å jobbe med koden og dokumentasjoen. 
 
 
 
