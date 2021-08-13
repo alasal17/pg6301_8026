@@ -18,6 +18,9 @@
 </p>
 
 
-# <h1 align="center"> Start the program (PG6301)</h1>
+# <h1 align="center"> Start the program</h1>
+1. `code` npm start`code`
+
+
 
 
