@@ -47,6 +47,7 @@ For å kunne kjøre programmet må du ha en Config.js fil ( den følger med i zi
 Plan var og kjøre .env-fil men det dukket opp flere problemer derfor velger jeg å bruke kun Config.js filen.
 
 ### Config.js
+Legg til Config.js under ***src/server***
 ```
 import firebase from 'firebase/app';
 import 'firebase/firestore';
