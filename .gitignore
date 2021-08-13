@@ -9,3 +9,9 @@ node_modules/.bin/acorn
 /node_modules/
 /dist/
 .env
+/.firebase/
+/.github/
+/dist/
+/public/
+*.env
+/.env
