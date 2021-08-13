@@ -1,17 +1,18 @@
-import firebase from "firebase/app";
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
 var Config = {
-    apiKey: "AIzaSyB_V-wGfUj74LykWLRT41_Nb1cgl3ryPHo",
-    authDomain: "free-travel-e6d99.firebaseapp.com",
-    projectId: "free-travel-e6d99",
-    storageBucket: "free-travel-e6d99.appspot.com",
-    messagingSenderId: "556150306153",
-    appId: "1:556150306153:web:60b94cdf509e828e0879f8"
+    apiKey: "AIzaSyCbjW2dMJRvEnPJ1383StNsyAP_C0D7HDg",
+    authDomain: "free-travel-a7378.firebaseapp.com",
+    projectId: "free-travel-a7378",
+    storageBucket: "free-travel-a7378.appspot.com",
+    messagingSenderId: "918473356840",
+    appId: "1:918473356840:web:6021c89b428b2d53da271d",
+    measurementId: "G-YZPG6P5R31"
 };
         // Initialize Firebase
 firebase.initializeApp(Config);
 firebase.firestore().settings({ timestampInSnapshots: true});
 
-export default Config;
+export default firebase;

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/alasal17/pg6301_8026#readme",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "concurrently": "^6.2.1",
     "nodemon": "^2.0.12",
     "parcel": "^2.0.0-rc.0",
@@ -27,15 +28,16 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "firebase": "^8.9.1",
+    "firebase": "^8.2.2",
+    "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
-    "react-redux-firebase": "^3.10.0",
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "redux": "^4.1.1",
-    "redux-firestore": "^0.15.0",
+    "redux-firestore": "^0.5.7",
     "redux-thunk": "^2.3.0"
   }
 }
