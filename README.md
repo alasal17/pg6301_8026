@@ -47,7 +47,8 @@ For å kunne kjøre programmet må du ha en Config.js fil ( den følger med i zi
 Plan var og kjøre .env-fil men det dukket opp flere problemer derfor velger jeg å bruke kun Config.js filen.
 
 ### Config.js
-`import firebase from 'firebase/app';
+```
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
@@ -65,7 +66,8 @@ var Config = {
 firebase.initializeApp(Config);
 firebase.firestore().settings({ timestampInSnapshots: true});
 
-export default firebase;`
+export default firebase;
+```
 
 1. `npm install`
 2. `npm start`
