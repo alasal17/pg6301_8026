@@ -18,8 +18,9 @@
 </p>
 
 
-# <h1 align="center"> Start the program</h1>
-1. `code` npm start`code`
+## <h1 align="center"> Start the program</h1>
+1. `npm install`
+2. `npm start`
 
 
 
