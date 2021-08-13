@@ -20,16 +20,16 @@
 ## Funksjoner i web applikasjonen
 
 ### Funksjoner jeg rakk og bli ferdig med:
-[x] Bruker kan logge inn.
-[x] Bruker kan legge til nye Reisetips til databasen.
-[x] Bruker kan se hva han/ hun har postet og det andre har posted.
-[]
+[x] Bruker kan logge inn.<br/>
+[x] Bruker kan legge til nye Reisetips til databasen.<br/>
+[x] Bruker kan se hva han/ hun har postet og det andre har posted.<br/>
+[]<br/>
 
-### Funksjoner jeg ikke fikk tid til å fullføre:
-[] Bruker kan slette sitte innhold.
-[] Bruker kan updatere sin blogg.
-[] Dashboard som kun viser bloggene til besøkende, men kan ikke endre innlegg
-[] Chat funksjon
+### Funksjoner jeg ikke fikk tid til å fullføre:<br/>
+[] Bruker kan slette sitte innhold.<br/>
+[] Bruker kan updatere sin blogg.<br/>
+[] Dashboard som kun viser bloggene til besøkende, men kan ikke endre innlegg<br/>
+[] Chat funksjon<br/>
 
 <p align="center">
   <b>Folder Structured:</b><br>
