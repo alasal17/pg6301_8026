@@ -28,7 +28,7 @@ Kunder kan besøke siden og se på tipsene, men de har ikke noe mulighet til å 
 Jeg har brukt firebase som min backend. Det er en effektiv plattform som er enkelt og bruke med React og JavaScript. Har har jeg opprettet en database som inneholder to tabeller,
 users og trips. Her så er vært innlegg tilknuttet en bruker. 
 
--<img align="center" src="src/public/airplane.ico" alt="plane"/>
+'Trips-Table*<img align="center" src="src/public/assets/trips-table.png" alt="plane"/>
 
 
 ## Funksjoner i web applikasjonen
