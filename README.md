@@ -4,18 +4,18 @@
 
 
 ### Dependencies: 
-"express": "^4.17.1",
-"firebase": "^8.2.2",
-"moment": "^2.29.1",
-"react": "^17.0.2",
-"react-dom": "^17.0.2",
-"react-redux": "^5.1.1",
-"react-redux-firebase": "^2.2.4",
-"react-router-dom": "^5.2.0",
-"react-scripts": "^4.0.3",
-"redux": "^4.1.1",
-"redux-firestore": "^0.5.7",
-"redux-thunk": "^2.3.0"
+- "express": "^4.17.1",
+- "firebase": "^8.2.2",
+- "moment": "^2.29.1",
+- "react": "^17.0.2",
+- "react-dom": "^17.0.2",
+- "react-redux": "^5.1.1",
+- "react-redux-firebase": "^2.2.4",
+- "react-router-dom": "^5.2.0",
+- "react-scripts": "^4.0.3",
+- "redux": "^4.1.1",
+- "redux-firestore": "^0.5.7",
+- "redux-thunk": "^2.3.0"
 
 
 <p align="center">
