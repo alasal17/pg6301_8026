@@ -25,6 +25,27 @@ Jeg hadde en ide om å lage en nettside/forumside for reise byrå. Her kunne ans
 Kunder kan besøke siden og se på tipsene, men de har ikke noe mulighet til å endre eller slette innlegg. Det kun noe ansatte kan gjøre. 
 
 ### Teknologi
+
+
+NodeJS version:
+```
+"engines":{
+     "node":"12.0.0"
+}
+```
+
+
+build/run:
+```
+"scripts": {
+    "start": "concurrently npm:parcel npm:express",
+    "parcel": "parcel watch src/public/index.html",
+    "express": "nodemon --watch src/server src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },´
+```
+
+
 Jeg har brukt firebase som min backend. Det er en effektiv plattform som er enkelt og bruke med React og JavaScript. Har har jeg opprettet en database som inneholder to tabeller,
 users og trips. Her så er vært innlegg tilknuttet en bruker. 
 
@@ -39,6 +60,17 @@ For og fetch-e dataen fra firebase database så bruker jeg react-redux, react-re
 [Mer om redux og firebase](http://react-redux-firebase.com/)
 
 
+Bruker autentiseringen er custom Email/Password provider. Det er på samme måte som å få kontakt med firebase databasen, så er autentiseringen enkelt og implementere i kode.  
+
+<p align="center">
+  <b>Folder Structured:</b><br>
+  <a href="#">src/client</a> |
+  <a href="#">src/server</a> |
+  <a href="#">src/public</a>
+  <br><br>
+  <img src="https://i.pinimg.com/originals/a2/d8/c3/a2d8c395b374be74c98052223abcab96.gif" wight=100px width=100px>
+</p>
+
 ## Funksjoner i web applikasjonen
 
 ### Funksjoner jeg rakk og bli ferdig med:
@@ -52,14 +84,7 @@ For og fetch-e dataen fra firebase database så bruker jeg react-redux, react-re
 - [ ] Bruker kan updatere sin blogg.
 - [ ] Chat funksjon.
 
-<p align="center">
-  <b>Folder Structured:</b><br>
-  <a href="#">src/client</a> |
-  <a href="#">src/server</a> |
-  <a href="#">src/public</a>
-  <br><br>
-  <img src="https://i.pinimg.com/originals/a2/d8/c3/a2d8c395b374be74c98052223abcab96.gif" wight=100px width=100px>
-</p>
+
 
 
 ## <h1 align="center"> Start the program</h1>
@@ -96,6 +121,9 @@ export default firebase;
 2. `npm start`
 
 Programmet skal startet på http://localhost:8080/
+
+
+
 
 
 
