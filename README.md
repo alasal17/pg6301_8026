@@ -34,6 +34,11 @@ users og trips. Her så er vært innlegg tilknuttet en bruker.
 *Users-Table*
 <img align="center" src="src/public/assets/users-table.png" alt="plane"/>
 
+
+For og fetch-e dataen fra firebase database så bruker jeg react-redux, react-redux-firebase, redux, redux-firestore. Firebase har masse innebygde funksjoner som gjør det lett og fetch-e dataen fra databasen uten og måte trenger å bruke ajax eller axios. 
+[Mer om redux og firebase](http://react-redux-firebase.com/)
+
+
 ## Funksjoner i web applikasjonen
 
 ### Funksjoner jeg rakk og bli ferdig med:
